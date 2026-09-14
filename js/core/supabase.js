@@ -8,11 +8,11 @@
  * - Persistência automática de sessão
  */
 
-import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+import { createClient } from 'https://qpzsbnqpymtxdmbflcwk.supabase.co';
 import { normalizeRole } from './permissions.js';
 import { db } from './database.js';
 
-const CONFIG_STORAGE_KEY = 'gef_supabase_config_v1';
+const CONFIG_STORAGE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFwenNibnFweW10eGRtYmZsY3drIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODkzOTA0OTYsImV4cCI6MjEwNDk2NjQ5Nn0.9Nxqg2mikC3NYMXLfpCo4Mi5OobSvky442ofPi4Vvjc';
 
 // Recupera configuração do localStorage ou variáveis de ambiente
 function loadConfig() {
